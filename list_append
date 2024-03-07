@@ -1,0 +1,9 @@
+userInput = int(input("Would you like to start? (Y: Enter any key)(N:Enter 0): "))
+L = []
+
+while userInput != 0:
+  L.append(userInput)
+  L
+  userInput = int(input("Enter a value (Press 0 to stop): "))
+
+print(L)
