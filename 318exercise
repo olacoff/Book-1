@@ -1,0 +1,9 @@
+def fill(l):
+  for i in range(10):
+    l.append(i)
+    if i%2 == 0:
+        l.pop()
+  print(l)
+
+aList = []
+fill(aList)
